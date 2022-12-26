@@ -64,7 +64,7 @@ const handleSubmit = async ( e) => {
         const messageDiv = document.getElementById(uniqueId)
         loader(messageDiv)
 
-        const response = await fetch("http://localhost:1000/", { 
+        const response = await fetch("http://localhost:5000",{ 
                 method: "POST",
                 headers: {
                         "Content-Type": "application/json"
@@ -86,9 +86,9 @@ const handleSubmit = async ( e) => {
                 alert(err)
         }
 }
-form.addEventListener("submit", handleSubmit)
-form.addEventListener("keyup", (e) => {
-        if (e.keyCode === 13) {
-                handleSubmit(e)
+form.addEventListener('submit', handleSubmit)
+form.addEventListener('keyup', (event) => {
+        if (event.keyCode === 13) {
+                handleSubmit(event)
         }
 })
