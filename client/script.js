@@ -50,7 +50,7 @@ function chatStripe( isAi, value, uniqueId) {
                 `
         )
 }
-const handleSubmit = async ( e) => {
+const handleSubmit = async (e) => {
         e.preventDefault();
         // user's chatstripe
         const data = new FormData(form);
