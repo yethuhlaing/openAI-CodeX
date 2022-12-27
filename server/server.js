@@ -1,3 +1,5 @@
+//npm init
+//npm install express nodemon dotenv cors openai
 import express from 'express'
 import * as dotenv from 'dotenv'
 import cors from 'cors'

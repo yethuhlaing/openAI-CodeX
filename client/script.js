@@ -63,8 +63,7 @@ const handleSubmit = async (e) => {
         chatContainer.scrollTop = chatContainer.scrollHeight;
         const messageDiv = document.getElementById(uniqueId)
         loader(messageDiv)
-
-        const response = await fetch("http://localhost:5000",{ 
+        const response = await fetch("https://openai-x7g4.onrender.com",{ 
                 method: "POST",
                 headers: {
                         "Content-Type": "application/json"
