@@ -8,3 +8,8 @@ Reference Video - https://open-ai-code-x.vercel.app/
 Assets - https://drive.google.com/file/d/1RhtfgrDaO7zoHIJgTUOZKYGdzTFJpe7V/view
 
 Styles - https://gist.github.com/adrianhajdin/2059ca74452a18d1560aac9499f58900
+
+## Project Demo
+
+https://user-images.githubusercontent.com/112906488/221345694-dcffdcd9-88a9-4e1b-8cce-9f141c46d0e4.mp4
+
