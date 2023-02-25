@@ -15,11 +15,11 @@ function loader(element) {
                 element.textContent += '.';
                 // If the loading indicator has reached three dots, reset it
                 if (element.textContent === '....') {
-                        element.textContent = '';``
+                        element.textContent = '';
                 }
         }, 300);
 }
-function typeText( element, text) {
+function typeText( element, text ) {
         let index = 0;
         let interval = setInterval ( () => {
                 if (index < text.length) {
@@ -63,7 +63,7 @@ const handleSubmit = async (e) => {
         chatContainer.scrollTop = chatContainer.scrollHeight;
         const messageDiv = document.getElementById(uniqueId)
         loader(messageDiv)
-        const response = await fetch("http://localhost:5000",{ 
+        const response = await fetch("http://localhost:1000",{ 
                 method: "POST",
                 headers: {
                         "Content-Type": "application/json"
